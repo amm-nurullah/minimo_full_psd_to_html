@@ -1,0 +1,271 @@
+/*font-family: 'Playfair Display', serif;*/
+/*font-family: 'Ubuntu', sans-serif;*/
+/*font-family: 'Inconsolata', monospace;*/
+
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family: 'Playfair Display', serif;
+	color: #626262; 
+}
+/*Header Start*/
+header{
+	    padding: 25px 0;
+	/*border: 1px solid  black;*/
+}
+.container{
+	width:90%;
+	margin:0 auto;
+	/*border: 1px solid red;*/
+	overflow: hidden;
+}
+.logo{
+	margin-top: 4px;
+	width: 13%;
+    float: left;
+    /*border: 1px solid red;*/
+   
+}
+.logo img{
+	width: 100%;
+}
+.manu{
+	width: 70%;
+	float: right;
+	/*border: 1px solid red;*/
+}
+.manu ul{
+	float: right;
+}
+.manu ul li{
+	float: left;
+    list-style: none;
+}
+.manu ul li a{
+	margin: 0 50px;
+    padding: 10px 0;
+    color: #626262;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    transition: .3s;
+    border: 1px solid transparent;
+
+}
+.manu ul li a:hover{
+	border-bottom:1px solid #626262; 
+}
+
+.manu ul li:last-child a{
+	margin-right: 0;
+}
+
+/*Header End*/
+
+/*banner start*/
+.banner{}
+.bn_img{
+	width: 100%;
+}
+/*banner end*/
+
+/*getaway start*/
+.getaway{}
+.container_2{
+	width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+  /*  border: 1px solid red;*/
+}
+.getaway_text{
+	padding: 65px 0;
+}
+.getaway_text h2{
+	font-size: 30px;
+    font-weight: 400;
+    margin-top: 25px;
+    margin-bottom: 30px;
+
+}
+.common{
+	font-family: 'Ubuntu', sans-serif;
+	color: #b4ad9e;
+	text-transform: uppercase;
+}
+
+.text{  
+    line-height: 1.714;
+    word-spacing: 1.3px;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
+/*getaway end*/
+
+/*blog start*/
+.blog{
+	padding: 80px 0;
+}
+.single{
+	width: 47%;
+    /*border: 1px solid;*/
+    float: left;
+    padding-bottom:50px;
+}
+.single:nth-child(even){
+	margin-left: 6%;
+
+}
+.single img{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.single h2{
+	font-size: 30px;
+	font-weight: 400;
+	margin: 20px 0;
+}
+.single p:last-child{
+	line-height: 1.5;
+	
+}
+
+/*blog end*/
+
+/*newsletter start*/
+.newsletter{
+	margin-top: 40px;
+	padding: 50px 0;
+	background-color: #f0f0f0;
+}
+.container_3{
+	width: 60%;
+	margin: 0 auto;
+}
+.signup{
+	text-align: center;
+}
+.signup h1{
+	font-size: 30px;
+	margin-bottom: 82px;
+}
+.for_form{
+	width: 350px;
+	left: 0;
+	right: 0;
+    margin: 0 auto;
+    position: relative;
+}
+.for_form input{
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+    width: 300px;
+    font-size: 18px;
+    padding: 10px 50px 10px 10px;
+    outline: none;
+}
+.for_form button{
+	border: none;
+    background: transparent;
+    position: absolute;
+    top: 10px;
+    right: 0px;
+}
+
+/*newsletter end*/
+/*blog2 start*/
+
+.blog2{
+	padding: 95px 0;
+}
+/*blog2 end*/
+
+/*button start*/
+.btn{}
+.container_4{
+	text-align: center;
+}
+.container_4 button{
+    font-size: 20px;
+    padding: 18px 40px;
+    border: none;
+    border: 1px solid #626262;
+    background: transparent;
+    transition: .5s;
+    cursor: pointer;
+}
+.container_4 button:hover{
+	color: white;
+	background-color: #626262;
+	 border: 1px solid #ffffff;
+}
+
+/*button end*/
+
+/*footer start*/
+footer{
+	margin-top: 95px;
+	padding: 40px 0;
+    background-color: #f0f0f0;   
+}
+nav{
+	width: 30%;
+	float: left;
+}
+nav ul {
+
+}
+nav ul li{
+	float: left;
+    list-style: none;
+    padding: 0 11px;
+}
+nav ul li a{
+	    font-size: 14px;
+    color: #000000;
+    text-decoration: none;
+        display: inline-block;
+    transition: .3s;
+    border: 1px solid transparent;
+}
+nav ul li a:hover{
+	border-bottom:1px solid #626262; 
+}
+
+.icon{
+	width: 30%;
+	float: right;
+}
+.icon ul{
+	float:right;
+
+}
+.icon ul li{
+	float: left;
+	list-style: none;
+    padding: 0 11px;
+}
+
+.icon ul li a{
+	font-size: 14px;
+    color: #000000;
+    text-decoration: none;
+    display: inline-block;
+    transition: .3s;
+    border: 1px solid transparent;
+}
+.icon ul li a:hover{
+	border-bottom:1px solid #626262; 
+}
+
+.icon ul li:last-child a{
+	padding-right: 0;
+}
+.icon ul a img{
+	width: 100%
+}
+
+/*footer end*/
